@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Watch League - Notice</title>
+    <style>
+        /* Lightened background using the soft warm sand/cream tones of the IWL assets */
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f7f5f0;
+            background-image: linear-gradient(180deg, #fbfaf7 0%, #edeae2 100%);
+            color: #2d3139;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container using light-mode forum canvas rules */
+        .container {
+            max-width: 600px;
+            width: 90%;
+            background-color: #ffffff;
+            border: 1px solid #dcd7cc;
+            border-top: 5px solid #b39256; /* The signature IWL gold accent line */
+            border-radius: 4px;
+            padding: 40px;
+            box-shadow: 0 8px 30px rgba(179, 146, 86, 0.12);
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Ensures the header image fits perfectly on all screen sizes */
+        .header-img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* High-contrast text readability */
+        p {
+            font-size: 16px;
+            line-height: 1.65;
+            color: #374151;
+            margin-bottom: 35px;
+            text-align: left;
+        }
+
+        /* Discord Button styled with the precise IWL gold brand color */
+        .discord-btn {
+            display: inline-block;
+            background-color: #b39256;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 15px 32px;
+            border-radius: 4px;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            box-shadow: 0 4px 14px rgba(179, 146, 86, 0.3);
+            letter-spacing: 0.3px;
+        }
+
+        /* Hover states matching classic forum button behavior */
+        .discord-btn:hover {
+            background-color: #9d7f46;
+            transform: translateY(-1px);
+        }
+
+        .discord-btn:active {
+            transform: translateY(0);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #8c939e;
+            border-top: 1px solid #e5e1d8;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Your GitHub image asset -->
+        <img src="finalmainheader.png" alt="International Watch League" class="header-img">
+        
+        <p>
+            After nearly 12 years, IWL will be shutting down our website and moving to Discord. 
+            This will allow us to continue on a free platform with a modern mobile app and much 
+            less administrative overhead.
+        </p>
+
+        <a href="https://discord.gg" class="discord-btn" target="_blank" rel="noopener">
+            Join Our New Home on Discord
+        </a>
+
+        <footer>
+            &copy; 2026 International Watch League. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
